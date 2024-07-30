@@ -22,7 +22,7 @@
 - Discord uses Markdown formatting
 - Discord has a 2000 character limit per message. The bot is able to split messages in multiple messages, this is done per 2000 characters. If you provide info longer then then 2000, please structure your info in a good way (example [ReplaceBlocksCommand](https://github.com/EleonGameStudiosSA/OfficialEmpyrionDiscord/blob/main/FAQSelectMenu/PublicInformation.yaml)).
 - You are able to create new keys with new info. If you do so be sure to mention this info in your pull-request so the menu can be updated with this.
-- If you want your name listed in the Into, then please provide your Discord UserName or User ID in the pull request description!
+- If you want your name listed in the Intro, then please provide your Discord UserName or User ID in the pull request description!
 
 ### Note: 
 > Updated entries will be visible in the FAQ Menu when the pull request is approved and merged.  
