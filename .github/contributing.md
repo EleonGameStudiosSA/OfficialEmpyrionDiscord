@@ -13,8 +13,10 @@
 
 ## Info
 
-- Follow the YAML Structure, do not modify the formating
-- Do not modify the Intro Info
+- Follow the YAML Structure. So no tabs are allowed
+- Do not modify the file formating
+- Do not modify the Intro key and its value
+- Discord uses Markdown formatting
 
 You are able to create new keys with new info. If you do so be sure to mention this info in your pull-request so the menu can be updated with this.
 
