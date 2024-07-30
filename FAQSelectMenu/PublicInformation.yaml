@@ -1,0 +1,417 @@
+---
+#  IMPORTANT: YAML files use spaces as indentation. Please don't use TABs - tab indentation is forbidden: http://yaml.org/faq.html
+#  Copyright © Taelyn
+#  Website: https://taelynshome.com/taelyn
+
+# Intro: Do not modify!
+Info: >+ 
+  **FAQ Topics**
+ 
+
+  Select one of the options in the menu to get information on topics.
+ 
+
+  **Note:** Topics are send in PM. You need to have DM Messages allowed from this Server and not have the bot blocked so its able to send it.
+ 
+
+  Special thanks to the following people for providing the information
+ 
+  - <@316394223135883264>
+ 
+  - <@198607081132130304>
+
+# Information about the Personal Suit Constructor
+PersonalSuitConstructor: >+
+  **Personal Suit Constructor**
+ 
+
+  The Personal Suit Constructor is unique in that it uses inputs directly from your inventory (not the toolbar), and can make a limited number of items.  It is always available, and is not part of any armor that can be equipped at an armor locker.  It produces four categories of items:
+ 
+  **A)** Basic Foods to more Advanced foods (like plant protein into energy bars)
+ 
+  **B)** Basic Medical items such as bandages and Antibiotic / Antitoxic medication
+ 
+  **C)** Unique Function no other constructor can do: produce Emergency O2 packs (white) from water bottles
+ 
+  **D)** Unique Devices/Items no other constructor can make.  All six of these devices should be produced as a priority in a new game to help with early game survival
+   **1)** Survival Tool - cost is free and can be made at any time.  This tool has 3 modes accessible by RMB once equipped: Defense, Salvage, Mining Drill
+   **2)** Detector (handheld) - cost is free and can be made at any time      
+   **3)** Survival Tent (cost 10 fiber) - land placed, in SP can allow you to sleep through the night, and in every play mode, it provides a respawn point (closest tent)
+   **4)** Portable Heater/Cooler device  (cost 1 iron ore) - land placed, can offset hot or cold environment by 30 degrees (F) when standing in close proximity
+   **5)** Water/O2 Condenser (cost 2 iron ore) - land placed, uses input energy to produce alternating water bottles and Silver/Green Emergency O2 Bottles
+      *Note: Planet/Moon O2 concentration directly affects the production frequency regardless of environment breathable status.
+   **6)** Portable Constructor (cost 3 iron ore) - land placed, uses no energy, can make many basic items, foods, weapons and medications, and can convert crushed rock into Iron, copper, and silicon ore (and Ingots), promethium ore into promethium pellets or small fuel cells, and wood->fiber into biofuel as an early energy source.  This is perhaps the most valuable early-game device.
+
+# Information about the Terrain Devices
+TerrainPlacedDevices: >+
+ **Terrain Placed Devices**
+ 
+
+ *coming soon...*
+
+OxygenStoragesUtilizationOptions: >+
+ **Oxygen Storage Types and Utilization Options**
+ 
+
+ __What O2 options exist, and which ones can my character directly consume?__
+ 
+
+ -> *The 3-white cylinder O2 pack:*
+  Name = Emergency O2
+  Description on mouse-over = Emergency O2
+  Created in: Personal Suit Constructor
+  Created from: Water Bottles
+  Consumed in: direct personal consumption, or can be added to a BA/Vessel O2 tank
+  
+
+ -> *The Green and Silver O2 bottle:*
+  Name = Small O2 Bottle
+  Description on mouse-over = Emergency O2 Bottle
+  Created in: Water/O2 Condenser (ground terrain device made in your Personal Suit Constructor from 2x iron ore)
+  Created from: Energy input to the device (any of Bio-fuel, Small/Large/Fusion promethium cells)
+  Consumed in: direct personal consumption, or can be added to a BA/Vessel O2 tank
+  
+
+ __Note on above options:__ They are both considered __*emergency O2*__, but the 3-white cylinder pack holds 35 O2 units, while the green/silver bottle holds 75 O2 units (and can be made outside your suit by a ground terrain device, which lets production work while youre gone.. a great starter and mid-game option for direct-use O2 and Water Bottle production).
+ 
+
+ -> *The Blue O2 Bottle:*
+  Name = O2 Bottle
+  Description on mouse-over = O2 value 250
+  Created in: a constructor (see below)
+  Created from: Water Jug + Steel Plate, yield = 2x O2 Bottles
+  Consumed in: can only be added to a BA/Vehicle O2 tank with at least 250 empty capacity. **Not for personal direct consumption**
+
+OxygenProductionMehtods: >+
+ **Oxygen Production Methods**
+ 
+
+ __Production Methodologies__
+ 
+ ->Water Extractor (ground terrain device) -> placed in Water w/Power source = Water Jugs (note: max water quality is 80%, which affects production speed)
+ 
+ ->Mine Ice Blocks from ice asteroid or snow planet (currently only snow starter planet) -> turn into Water Jugs (in portable constructor)
+ 
+ ->Ground terrain device Water/O2 Condenser -> alternates making Green and Silver O2 bottles with Water Bottles
+ 
+ *Note: The Water/O2 Condenser devices extraction speed is based on the global (planet's) O2 concentration.Placement does not matter for efficiency / speed.
+ 
+
+ __Water Jug Usage options__(can / should do both options in a terrain placed Portable Constructor): 
+ 
+ -> 1x Water Jug + 1x Steel Plate = 2x blue O2 canisters, each with 250 O2 units(for a total 500 O2 Units, and can only fill BA / Vessel O2 tanks)
+ 
+ -> 1x Water Jug = 10 Water Bottles
+ 
+
+ __Water Bottle Usage options: __
+ 
+ -> Put in personal inventory, create the Emergency O2 3 - white cylinder O2 pack with your Personal Suit Constructor
+ 
+ -> Also used to make Nutrient Solution, Sprouts, and input for various foods in a food processor
+
+# Information about the Replaceblocks Command
+ReplaceBlocksCommand: >+
+ **Replace Blocks Command**
+ 
+
+ **DO NOT USE THIS IN MULTIPLAYER!  BEWARE THIS ACTION CANNOT BE UNDONE**
+ 
+ 
+ The command replaceblocks is entered in the console.
+ 
+
+ When using the replaceblocks command, the ID is the Vessel or Base ID, not the block ID. It can change block from, for example, Concrete to Armored Concrete.
+ 
+
+ Example if Vessel ID = 1009. Enter the following into the console to change from regular concrete blocks to armored concrete blocks.
+ 
+
+ `replaceblocks 1009 ConcreteFull ConcreteArmoredFull`, you can also use the BlockGroup to replace all blocks `replaceblocks 1009 HullLargeBlocks HullCombatLargeBlocks`
+ 
+ 
+ List of the block groups
+ 
+ ```YAML
+ 
+ WoodBlocks               # BA                      # Wood Blocks
+ 
+ ConcreteBlocks           # BA                      # Concrete Blocks
+ 
+ ConcreteArmoredBlocks    # BA                      # Armored Concrete Blocks
+ 
+ PlasticLargeBlocks       # BA, CV                  # Carbon Composite Blocks L
+ 
+ HullLargeBlocks          # BA, CV                  # Steel Blocks L
+ 
+ HullArmoredLargeBlocks   # BA, CV                  # Hardened Steel Blocks L
+ 
+ HullCombatLargeBlocks    # BA, CV                  # Combat Steel Blocks L
+ 
+ AlienLargeBlocks         # BA, CV                  # Xeno Steel Blocks L 
+ 
+ AlienBlocks              # BA (POI), CV (POI)      # Radioactive; for POI building only; Same Texture range than 1395
+
+ PlasticSmallBlocks       # HV, SV                  # Carbon Composite Blocks S
+ 
+ HullSmallBlocks          # HV, SV                  # Steel Blocks S
+ 
+ HullArmoredSmallBlocks   # HV, SV                  # Hardened Steel Blocks S
+ 
+ HullCombatSmallBlocks    # HV                      # Combat Steel Blocks S
+ ```
+ 
+ **EMPTY BLOCKS**
+ 
+ You may additionally specify `empty` or `0 (zero)` to use an empty blockspace. 
+ 
+ This can be useful for mass removal of one type of block, like container extensions.
+
+ 
+ **TRUSS BLOCKS**
+ 
+ `TrussCube, TrussWedge, TrussCorner`
+
+
+ **WINDOWS**
+
+ *Shutter Windows*
+
+ `WindowVertShutterArmored, WindowSlopedShutterArmored,` `WindowSloped2ShutterArmored, WindowVertShutterTransArmored, WindowSlopedShutterTransArmored`
+
+ 
+ *Normal Windows*
+ 
+ `Window_v1x1, Window_v1x2, Window_v2x2, Window_s1x1, Window_s1x2, Window_sd1x1, Window_sd1x2, Window_sd1x2V2, Window_c1x1, Window_c1x2, Window_cr1x1, Window_crc1x1, Window_crsd1x1 Window_v1x1Inv, Window_v1x2Inv, Window_v2x2Inv, Window_s1x1Inv, Window_s1x2Inv, Window_sd1x1Inv, Window_sd1x2Inv, Window_sd1x2V2Inv, Window_c1x1Inv, Window_c1x2Inv, Window_cr1x1Inv, Window_crc1x1Inv, Window_crsd1x1Inv`
+
+ 
+ *Armored Windows*
+ 
+ `Window_v1x1Thick, Window_v1x2Thick, Window_v2x2Thick, Window_s1x1Thick, Window_s1x2Thick, Window_sd1x1Thick, Window_sd1x2Thick, Window_sd1x2V2Thick, Window_c1x1Thick, Window_c1x2Thick, Window_cr1x1Thick, Window_crc1x1Thick, Window_crsd1x1Thick Window_v1x1ThickInv, Window_v1x2ThickInv, Window_v2x2ThickInv, Window_s1x1ThickInv, Window_s1x2ThickInv, Window_sd1x1ThickInv, Window_sd1x2ThickInv, Window_sd1x2V2ThickInv, Window_c1x1ThickInv, Window_c1x2ThickInv, Window_cr1x1ThickInv, Window_crc1x1ThickInv, Window_crsd1x1ThickInv`
+
+ 
+ List of the block types
+
+ ```YAML
+ 
+ WoodFull, WoodThin, WoodExtended<2, 7>                                         # BA                    # Wood
+
+ ConcreteFull, ConcreteThin, ConcreteExtended<2, 7>                             # BA                    # Concrete
+
+ ConcreteArmoredFull, ConcreteArmoredThin, ConcreteArmoredExtended<2, 7>        # BA                    # Armored Concrete
+
+ PlasticFullLarge, PlasticThinLarge, PlasticExtendedLarge<2, 7>                 # BA, CV                # Carbon Composite
+
+ HullFullLarge, HullThinLarge, HullExtendedLarge<2, 7>                          # BA, CV                # Steel
+
+ HullArmoredFullLarge, HullArmoredThinLarge, HullArmoredExtendedLarge<2, 7>     # BA, CV                # Hardened Steel
+
+ HullCombatFullLarge, HullCombatThinLarge, HullCombatExtendedLarge<2, 7>        # BA, CV                # Combat Steel
+ ``` 
+ 
+ #### #### #### #### #### #### #### #### #### #### #### #### #### #### #### 
+ 
+ 
+ ```YAML
+ 
+ AlienFullLarge, AlienThinLarge, AlienExtendedLarge<2, 7>                       # BA, CV                # Xeno Steel
+
+ AlienFull, AlienThin, AlienExtended<2, 7>                                      # BA (POI), CV (POI)    # Alien Building
+
+ PlasticFullSmall, PlasticThinSmall, PlasticExtendedSmall<2, 7>                 # HV, SV                # Carbon Composite
+
+ HullFullSmall, HullThinSmall, HullExtendedSmall<2, 7>                          # HV, SV                # Steel
+
+ HullArmoredFullSmall, HullArmoredThinSmall, HullArmoredExtendedSmall<2, 7>     # HV, SV                # Hardened Steel
+
+ HullCombatFullSmall, HullCombatThinSmall, HullCombatExtendedSmall<2, 7>        # HV                    # Combat Steel 
+ ```
+ 
+PowerSystems: >+
+ **Power System**
+ 
+
+ To power a base, you need either:
+ A) Solar panels (15 max) + at least one capacitor
+ 
+ B) Fuel Tanks (with fuel inside) and at least 1 generator turned on
+ 
+ C) Both options above
+ 
+
+ Power usage works in this order (if you have both solar and fuel generators):
+ 1) Sun charges solar capacitors through the panels
+ 
+ 2) IF the charge exceeds the current base usage, the capacitor charges
+ 
+ 3) IF you exceed the Solar Panels generation ability then:
+ 
+ - The running generator will compensate the difference by consuming the appropriate amount of fuel
+  
+ ***Note:*** This makes it appear that the battery never charges.. in essence, the solar system is subsidizing  the amount of fuel needed when it cannot fully support the base load. Your base will use less fuel over all (slower consumption rate if theres solar being generated).
+ 
+
+ ***Note:*** you will need enough generators turned on to cover your bases power load/usage, or the generators will overload and take damage. Solar capacitors also count as generators if they are charged, adding to the total generator output for the base.
+ 
+
+ **Power System - Common Misconceptions**
+ 
+
+ **A)** My battery never charges, solar does not work.
+  - Answer: the solar capacitor and stored energy are ALWAYS consumed before any fuel is consumed
+  
+
+ **B)** If I leave the generator on, it will eat fuel constantly
+  - Answer: No, it wont. If your solar system can cover the base usage, no fuel is burned
+  
+
+ **C)** If I have more than one generator, it will consume more fuel / If I have a larger generator it will consume more fuel
+  - Answer: No, it won't, the only fuel that will be consumed will be: the amount needed to cover the base usage, AFTER the solar system takes all the load off the top that it can.\
+  
+
+ **D)** The generator should charge up the solar capacitor from excess energy generated
+  - Answer: thats not how it works, the generator NEVER produces extra energy, therefore, theres nothing to store..and the solar capacitor stores solar energy only.
+  
+
+ **E)** Single Player playfields won't collect solar power while youre gone.
+  - Answer:  Yes, Single Player playfields will collect solar while youre gone through a calculation based on the time you were away.  The same mechanism works for fuel consumption, plants growing, etc.  If your batteries are at zero, then the solar probably helped slow fuel consumption as indicated in items A+B+C.
+  
+
+ **F)** If my base power is turned off, Solar will not collect in the battery.
+  - Answer: yes, it will charge up the battery even if your base power switch is turned off.
+  
+
+ **G)** If I sit on the generator, I dont die from freezing
+  - Answer: This ones true, you'll die of heat or radiation.
+
+CreateScenarioGuide: >+
+ **How to create a Scenario**
+ 
+
+ https://steamcommunity.com/sharedfiles/filedetails/?id=707881686
+
+StructureWipeTimers: >+
+ Time after which player-built structures without core or less than 10 blocks get removed when not visited (0 = disabled)
+ 
+ DecayTime: 24
+ 
+
+ Time after which any player-built structures get removed when not visited (0 = disabled)
+ 
+ WipeTime: 0
+ 
+
+ Those 2 gameoptions.yaml setting will only reset when a any player physically walk/touch a BA, CV, SV, HV
+ 
+ F4 (Logistic Menu) wont reset the timer !!
+
+SolarEnergyGuide: >+
+ **How Solar Energy works:**
+
+ - The algorithm calculates the amount of sun-rays that will hit the solar panel for a certain placement during the day. The placement affects their efficiency (see factors listed below)
+ 
+ - This average efficiency is then displayed with the GREEN LCDs (up to four LED lights)
+
+ - The current efficiency is displayed by the YELLOW LED lights (up to four LED lights)
+
+ - If solar panels produce more electricity than currently needed, the surplus energy is stored in the Capacitor (Solar) block like in a battery.
+ 
+ - To display the surplus of energy (or the "energy reserve"), there is now a battery icon in the main page of Control Panel that shows the current content of the battery.
+ 
+ - Note: conventional generators (fuel driven) do not store excess power in the battery!
+ 
+
+ 
+ **Factors that will increase or reduce the efficiency on a PLANET:**
+
+ - Placement behind an obstacle (tree, stone, base, mountain etc) leads to a reduced efficiency
+ 
+ - Stronger Light Intensity on the playfield increases efficiency on a global scale (parameter: DayLightIntensity in playfield.yaml).
+ 
+ - Light Intensities overall impact on the efficiency is influenced by the weather condition in a second step: eg when it is cloudy or raining, light intensity effect decreases and thus also efficiency of panel
+ 
+ - Angle of panel towards sun: best efficiency when sun hits perpendicular on panel (eg on equator a flat solar panel lying on ground will have highest efficiency at noon, while a sloped solar panel close to pole while be better)
+ 
+ - AtmosphereDensity: higher density = less overall efficiency
+ 
+ - AtmosphereDensity is modified by latitude! Example: If the position of the Solar Panel is closer to the poles, it is less efficient for the same AtmosphereDenisty factor, because sun travels through more atmosphere than on equator.
+ 
+ - Ground fog reduces efficiency
+ 
+
+ 
+ **Factors that will increase or reduce the efficiency in SPACE:**
+ 
+ - Angle of panel towards sun: best efficiency when sun hits perpendicular on panel
+ 
+ - Distance of sun: the further the orbit playfield is away from sun, the lower the efficiency (eg lower efficiency in Ningues orbit than Aestus orbit)
+ 
+
+ 
+ **CHANGES SINCE A12**
+ **SP work as follow :**
+ 
+ - In general more energy is produced in space than on planet (if no atmosphere it is the same)
+ 
+ - The closer the planet from the sun the more energy produced (real simple physic formula for that)
+ 
+ - The thicker the atmosphere the less energy produced
+ 
+ - energy production depend on weather
+ 
+
+ **Example: SE = Solar Energy**
+ 
+ - Starting planet Eyutw -> SE = 115      orbit -> SE = 150
+ 
+ - Far from sun Pancian -> SE = 46        orbit -> SE 46    (atmosphere density in nearly 0)
+ 
+ - close form sun Puoeure -> SE = 100     orbit -> 600      (high atmos density + low light on planet)
+
+BBCodeGuide: >+
+ **BBCode Tags for Device Names in the Control Panel**
+ 
+
+ ```markdown
+ 
+ [b][/b] = Bold
+ 
+ [i][/i] = Italic
+ 
+ [u][/u] = Underline
+ 
+ [s][/s] = Strikethrough
+ 
+ [sup][/sup] = Superscript
+ 
+ [sub][/sub] = Subscript
+ 
+ [c][/c] = Sets text base color to white instead of default light-blue
+ 
+ [######][-] = Color (replace #'s with 6- or 8-digit hex color. The 8-value hex supports transparency. "[-]" is the closing tag.)
+ 
+ [##] = Set alpha (replace #'s with 2-digit hex value)
+ 
+
+ [c] and [######] will interact with each other. The hex color seems to multiply against the base color, so if you use a hex color without [c] it will be tinted the default light-blue color. For example, "[c][FFFFFF]" is required for pure white. Skipping the [c] tag can save characters if you don't mind the tint.
+ ```
+
+RepairBayGuide: >+
+ **Repair Bay How Too**
+
+ - Repair block cannot be obstructed. Make sure there is not a block placed on top of it covering it for example glass.
+ 
+ - Repair area must be clear for the entire blueprint. Make sure no ground is above the repair block or structures.
+ 
+ - Ships have a bounding box around them that expends about 5-10 blocks beyond the wingtips, nose and tail of the BP.
+ 
+ - Make sure the ship center is above the repair pad and you have no docked ships.
+ 
+ - Make sure the ship has a repair template. Every time you make a change make sure to hit \"save repair template\". If the ship was spawned from the BP factory it will be restored to that state unless you saved an updated repair template.
+ 
+
+ Other options for repairing ships
+ 
+ - Make a repair station in space to ensure no blocking objects
+ 
+ - Station services
