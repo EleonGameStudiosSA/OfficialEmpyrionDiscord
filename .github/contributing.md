@@ -9,10 +9,31 @@
 
 1. Create a fork
 	<p>
-    <img src="https://raw.githubusercontent.com/EleonGameStudiosSA/OfficialEmpyrionDiscord/main/.github/Assets/CreateFork.png" width="450" alt="FAQ Menu"/></a>
+    <img src="https://raw.githubusercontent.com/EleonGameStudiosSA/OfficialEmpyrionDiscord/main/.github/Assets/CreateFork.png" width="350" alt="FAQ Menu"/></a>
     </p>
-2. Make the changes you want to make and commit this to the created fork
-3. Create a pull request to the main repro (EleonGameStudiosSA/OfficialEmpyrionDiscord)
+2. Make the changes you want to make
+	<p>
+    <img src="https://raw.githubusercontent.com/EleonGameStudiosSA/OfficialEmpyrionDiscord/main/.github/Assets/EditFile.png" width="250" alt="FAQ Menu"/></a>
+    </p>
+3. Commit the changes
+	<p>
+    <img src="https://raw.githubusercontent.com/EleonGameStudiosSA/OfficialEmpyrionDiscord/main/.github/Assets/CommitChanges.png" width="250" alt="FAQ Menu"/></a>
+
+    When commiting follow the "Git Commit Message Convention"
+    like:
+    ```
+    Fix ReplaceBlocksCommand
+    Add MyNewYamlKey
+    Change RepairBayGuide
+    ```
+    In the description you explain short what you changed/fixed
+    
+    <img src="https://raw.githubusercontent.com/EleonGameStudiosSA/OfficialEmpyrionDiscord/main/.github/Assets/CommitWindow.png" width="350" alt="FAQ Menu"/></a>    
+    </p>
+4. Create a pull request to the main repro (EleonGameStudiosSA/OfficialEmpyrionDiscord)
+	<p>
+    <img src="https://raw.githubusercontent.com/EleonGameStudiosSA/OfficialEmpyrionDiscord/main/.github/Assets/PullRequest.png" width="1586" alt="FAQ Menu"/></a>
+    </p>
 
 ## Info
 
