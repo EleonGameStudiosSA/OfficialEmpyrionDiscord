@@ -4,6 +4,9 @@
 
 ## Setup
 
+- FAQSelectMenu/PublicInformation.yaml (used for the general public)
+- FAQSelectMenu/OfficialMPServerInformation.yaml (used for the Official Multiplayer Servers)
+
 1. Create a fork
 	<p>
     <img src="https://raw.githubusercontent.com/EleonGameStudiosSA/OfficialEmpyrionDiscord/main/.github/Assets/CreateFork.png" width="250" alt="FAQ Menu"/></a>
