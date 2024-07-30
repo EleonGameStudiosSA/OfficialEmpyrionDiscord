@@ -17,3 +17,5 @@
 - Do not modify the Intro Info
 
 You are able to create new keys with new info. If you do so be sure to mention this info in your pull-request so the menu can be updated with this.
+
+### Note: Updated entries will be visible in the FAQ Menu when the pull request is approved and merged. For new entries the code needs to be changed
