@@ -12,7 +12,7 @@
     <img src="https://raw.githubusercontent.com/EleonGameStudiosSA/OfficialEmpyrionDiscord/main/.github/Assets/CreateFork.png" width="250" alt="FAQ Menu"/></a>
     </p>
 2. Make the changes you want to make and commit this to the created fork
-3. Create a pull request to the main repro
+3. Create a pull request to the main repro (EleonGameStudiosSA/OfficialEmpyrionDiscord)
 
 ## Info
 
