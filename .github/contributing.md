@@ -21,6 +21,8 @@
 - Do not modify the Intro key and its value
 - Discord uses Markdown formatting
 
+Discord has a 2000 character limit per message. The bot is able to split messages in multiple messages, this is done per 2000 characters. If you provide info longer then then this, please structure your info in a good way (example [ReplaceBlocksCommand](https://github.com/EleonGameStudiosSA/OfficialEmpyrionDiscord/blob/main/FAQSelectMenu/PublicInformation.yaml)).
+
 You are able to create new keys with new info. If you do so be sure to mention this info in your pull-request so the menu can be updated with this.
 
 ### Note: 
