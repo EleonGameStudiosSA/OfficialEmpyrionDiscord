@@ -1,7 +1,7 @@
 name: Bug Report
 description: Create a bug report
 title: "[BUG]: "
-labels: ["bug"]
+labels: [":lady_beetle: bug"]
 assignees: 'Taelyn'
 
 body:
