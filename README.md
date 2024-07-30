@@ -11,4 +11,4 @@
 	</p>	
 </div>
 
-Please follow the [Contributing](https://github.com/EleonGameStudiosSA/OfficialEmpyrionDiscord/blob/main/.github/contributing.md) information if you wish to contribute to the repository
+Please follow the [contributing](https://github.com/EleonGameStudiosSA/OfficialEmpyrionDiscord/blob/main/.github/contributing.md) information if you wish to contribute to the repository
