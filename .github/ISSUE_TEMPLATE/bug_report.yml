@@ -1,0 +1,37 @@
+name: Bug Report
+about: Create a bug report
+title: "[BUG]: "
+labels: ["bug"]
+assignees: 'Taelyn'
+
+body:
+  - type: dropdown
+    id: key
+    attributes:
+      label: Menu Option
+      description: What menu option did you select
+      options:
+        - None
+        - Personal Suit Constructor
+        - Terrain Placed Devices
+        - Oxygen Storages Utilization Options
+        - Oxygen Production Mehtods
+        - Replace Blocks Command
+        - Power Systems
+        - Create Scenario Guide
+        - Structure Wipe Timers
+        - Solar Energy Guide
+        - BBCode Guide
+        - Repair Bay Guide                                                
+      default: 0
+    validations:
+      required: true
+
+  - type: textarea
+    id: issue
+    attributes:
+      label: Issue
+      description: A clear and concise description of what the problem is, or what feature you want to be implemented.
+      placeholder: The selected option doest give info..., Interaction failed message..., A good addition would be...
+    validations:
+      required: true
