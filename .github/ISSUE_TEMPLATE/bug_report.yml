@@ -11,7 +11,7 @@ body:
       label: Menu Option
       description: What menu option did you select
       options:
-        - None
+        - Nothing
         - Personal Suit Constructor
         - Terrain Placed Devices
         - Oxygen Storages Utilization Options
