@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Structure Decay & Wipe Timers - Empyrion Guide</title>
+
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            font-family: "Segoe UI", Arial, sans-serif;
+            background: #0f0f0f;
+            color: #ffffff;
+            line-height: 1.7;
+        }
+
+        .page {
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 40px 20px;
+        }
+
+        .header {
+            text-align: center;
+            margin-bottom: 40px;
+        }
+
+        .header h1 {
+            margin: 0;
+            color: #ffcc66;
+            font-size: 40px;
+        }
+
+        .header p {
+            margin-top: 10px;
+            color: #aaaaaa;
+            font-size: 18px;
+        }
+
+        .section h2 {
+            color: #ffcc66;
+            margin-bottom: 25px;
+        }
+
+        .rule {
+            background: #1a1a1a;
+            border: 1px solid #2d2d2d;
+            border-radius: 10px;
+            padding: 20px;
+            margin-bottom: 20px;
+        }
+
+        .rule h3 {
+            margin-top: 0;
+            color: #ffcc66;
+            font-size: 22px;
+        }
+
+        .rule p {
+            color: #dddddd;
+        }
+
+        .subsection {
+            margin-top: 15px;
+            padding: 15px;
+            background: #141414;
+            border-left: 4px solid #5865f2;
+            border-radius: 6px;
+        }
+
+        .subsection h4 {
+            margin-top: 0;
+            color: #7aa2ff;
+        }
+
+        .subsection ul {
+            margin: 10px 0 0 20px;
+            color: #dddddd;
+        }
+
+        .subsection li {
+            margin-bottom: 8px;
+        }
+
+        .note {
+            background: #1a1a1a;
+            border-left: 4px solid #ffcc66;
+            padding: 12px 15px;
+            margin-top: 20px;
+            color: #cccccc;
+        }
+
+        .warning {
+            background: #2a1515;
+            border-left: 4px solid #ff6666;
+            padding: 12px 15px;
+            margin-top: 20px;
+            color: #ffcccc;
+        }
+    </style>
+</head>
+<body>
+
+<div class="page">
+
+    <div class="header">
+        <h1>Empyrion Galactic Survival</h1>
+        <p>Structure Decay & Wipe Timers Guide</p>
+    </div>
+
+    <div class="section">
+
+        <div class="rule">
+            <h3>Structure Cleanup Timers</h3>
+
+            <p>
+                Empyrion includes two cleanup timers in <strong>gameoptions.yaml</strong> that
+                automatically remove abandoned player-built structures after they have not been visited
+                for a specified period.
+            </p>
+        </div>
+
+        <div class="rule">
+            <h3>DecayTime</h3>
+
+            <div class="subsection">
+                <h4>Current Setting: 24</h4>
+
+                <p>
+                    Removes player-built structures that either:
+                </p>
+
+                <ul>
+                    <li>Have no core, or</li>
+                    <li>Contain fewer than 10 blocks.</li>
+                </ul>
+
+                <p>
+                    This timer activates after the structure has not been visited for
+                    <strong>24 hours</strong>.
+                </p>
+
+                <p>
+                    Setting this value to <strong>0</strong> disables this cleanup.
+                </p>
+            </div>
+        </div>
+
+        <div class="rule">
+            <h3>WipeTime</h3>
+
+            <div class="subsection">
+                <h4>Current Setting: 0</h4>
+
+                <p>
+                    Removes any player-built structure after it has not been visited for the configured time.
+                </p>
+
+                <p>
+                    Since the current value is <strong>0</strong>, this automatic wipe is disabled.
+                </p>
+            </div>
+        </div>
+
+        <div class="rule">
+            <h3>How the Timer Resets</h3>
+
+            <div class="subsection">
+                <h4>Physical Interaction Required</h4>
+
+                <p>
+                    The visit timer only resets when a player physically walks onto or touches the structure.
+                </p>
+
+                <ul>
+                    <li>✔ Walking onto a Base (BA)</li>
+                    <li>✔ Entering or touching a CV</li>
+                    <li>✔ Entering or touching an SV</li>
+                    <li>✔ Entering or touching an HV</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="warning">
+            <strong>Important:</strong>
+            Opening a structure through the <strong>F4 Logistics Menu</strong> does <strong>not</strong> reset the visit timer.
+            You must physically visit the structure for the timer to refresh.
+        </div>
+
+        <div class="note">
+            <strong>Remember:</strong>
+            If you're relying on remote logistics to manage your base, make sure to periodically visit your structures in person.
+            Remote access alone will not prevent cleanup timers from continuing to count down.
+        </div>
+
+    </div>
+
+</div>
+
+</body>
+</html>
