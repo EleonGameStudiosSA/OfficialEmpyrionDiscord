@@ -3,6 +3,6 @@ plugins:
 - jekyll-remote-theme
 
 title: Empyrion - Galactic Survival
-# tagline: [A very short description of your site's purpose, used as subtitle]
-# description: [A short description of your site's purpose (e.g. for search engines)]
-show_downloads: true
+tagline: Official gameplay guides, mechanics, and reference library
+description: A comprehensive collection of Empyrion - Galactic Survival guides covering survival, building, power, oxygen systems, repair mechanics, console commands, and official server gameplay
+show_downloads: false
