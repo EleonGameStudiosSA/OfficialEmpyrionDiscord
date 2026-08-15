@@ -5,7 +5,8 @@
 body{
     margin:0;
     font-family:"Segoe UI",Arial,sans-serif;
-    background:#0f0f0f;
+    background: linear-gradient(rgba(0,0,0,0.75), rgba(0,0,0,0.75)), url("../images/background.jpg") no-repeat center center fixed;
+    background-size: cover;
     color:#ffffff;
     line-height:1.7;
 }
