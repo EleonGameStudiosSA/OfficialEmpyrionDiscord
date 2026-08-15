@@ -3,227 +3,237 @@ layout: default
 title: Wipe Types Guide
 ---
 
+<div class="section">
+
 <div class="rule">
-
-## Wipe Types
-
-Empyrion uses several different types of wipes, each affecting different parts of the game. Understanding the difference helps you know what is safe and what may be removed during scheduled maintenance.
-
+<h3>Wipe Types</h3>
+<p>
+    Empyrion uses several different types of wipes, each affecting different parts of the game.
+    Understanding the difference helps you know what is safe and what may be removed during scheduled maintenance.
+</p>
 </div>
 
 <div class="rule">
+<h3>Full Wipe</h3>
 
-## Full Wipe
+<p>
+    A <strong>Full Wipe</strong> means a complete server wipe.
+</p>
 
-A **Full Wipe** is a complete server reset.
-
-Everything is removed except the contents of your **Orbital Auto Miner** (check it with `am:?` in chat).
+<p>
+    You lose your entire progress except for the contents of your
+    <strong>Orbital Auto Miner</strong> (use <code>am:?</code> in chat to check it).
+</p>
 
 <div class="warning">
-
-**Everything else is lost.**
-
-- Bases
-- Ships
-- Inventory
-- Progress
-
+<strong>Everything else is lost.</strong>
+<ul>
+<li>Bases</li>
+<li>Ships</li>
+<li>Inventory</li>
+<li>Progress</li>
+</ul>
 </div>
 
-A Full Wipe generally happens with every major Empyrion patch, which has been roughly **every 3 months**.
-
+<p>
+    A Full Wipe generally happens with every major Empyrion patch, which has been roughly
+    <strong>every 3 months</strong>.
+</p>
 </div>
 
 <div class="rule">
+<h3>Playfield Wipe</h3>
 
-## Playfield Wipe
-
-A **Playfield Wipe** removes everything built or placed on a specific playfield.
+<p>
+    A <strong>Playfield Wipe</strong> removes every structure and placed device on a specific playfield.
+</p>
 
 <div class="subsection">
+<h4>What is removed</h4>
+<ul>
+<li>Bases</li>
+<li>Ships left on that playfield</li>
+<li>Water Generators</li>
+<li>Other placed devices</li>
+</ul>
 
-#### What is removed
-
-- Bases
-- Ships left on that playfield
-- Water Generators
-- Other placed devices
-
-Your inventory and anything on other playfields remain safe.
-
+<p>
+    Your inventory and anything located on other playfields remain safe.
+</p>
 </div>
 
 <div class="note">
-
-**Current Server Status:** We do **not** run Playfield Wipes.
-
+<strong>Current Server Status:</strong> We do <strong>not</strong> run Playfield Wipes.
 </div>
-
 </div>
 
 <div class="rule">
+<h3>Hard Ground / Surface Wipe</h3>
 
-## Hard Ground / Surface Wipe
-
-A **Hard Ground Wipe** restores an entire planet's terrain to its original state.
+<p>
+    A <strong>Hard Ground Wipe</strong> restores an entire planet's terrain to its original state.
+</p>
 
 <div class="subsection">
+<h4>What changes</h4>
 
-#### What changes
+<ul>
+<li>Every dug hole is filled.</li>
+<li>Every placeable device (such as Water Generators) is removed.</li>
+<li>Terrain returns to its original shape.</li>
+</ul>
 
-- Every dug hole is filled.
-- Every placeable device (such as Water Generators) is removed.
-- Terrain returns to its original shape.
-
-Your structures and inventory remain safe.
-
+<p>
+    Your structures and inventory remain safe.
+</p>
 </div>
 
 <div class="warning">
-
-**Structural Integrity Warning**
-
+<strong>Structural Integrity Warning:</strong>
 Terrain supporting your base may change, so unsupported structures can become unstable.
-
 </div>
 
 <div class="note">
-
-**Current Server Status:** We do **not** run Hard Ground Wipes.
-
+<strong>Current Server Status:</strong> We do <strong>not</strong> run Hard Ground Wipes.
 </div>
-
 </div>
 
 <div class="rule">
+<h3>Soft Ground / Surface Wipe</h3>
 
-## Soft Ground / Surface Wipe
-
-A **Soft Ground Wipe** works like a Hard Ground Wipe, except terrain around player bases is preserved.
+<p>
+    A <strong>Soft Ground Wipe</strong> works similarly to a Hard Ground Wipe, but the terrain around and inside your base is preserved.
+</p>
 
 <div class="subsection">
+<h4>What changes</h4>
 
-#### What changes
-
-- Underground bases remain protected.
-- Terrain around player bases is untouched.
-- Placeable devices such as Water Generators are removed.
-
+<ul>
+<li>Underground bases remain protected.</li>
+<li>Terrain surrounding player bases is not reset.</li>
+<li>Placeable devices such as Water Generators are removed.</li>
+</ul>
 </div>
 
 <div class="subsection">
+<h4>Schedule</h4>
 
-#### Schedule
+<p>Starter Planets are wiped:</p>
 
-**Starter Planets**
+<ul>
+<li><strong>Monday</strong></li>
+<li><strong>Wednesday</strong></li>
+<li><strong>Friday</strong></li>
+</ul>
 
-- Monday
-- Wednesday
-- Friday
-
-**Time:** **9:00 AM**
-
+<p>at <strong>9:00 AM</strong>.</p>
 </div>
-
 </div>
 
 <div class="rule">
+<h3>Deposit Wipe</h3>
 
-## Deposit Wipe
-
-A **Deposit Wipe** regenerates every resource deposit back to **100%** and resets the terrain around those deposits.
+<p>
+    A <strong>Deposit Wipe</strong> regenerates every resource deposit back to <strong>100%</strong> and resets the terrain around those deposits.
+</p>
 
 <div class="subsection">
+<h4>Schedule</h4>
 
-#### Schedule
+<p>Starter Planets are wiped:</p>
 
-**Starter Planets**
+<ul>
+<li><strong>Monday</strong></li>
+<li><strong>Wednesday</strong></li>
+<li><strong>Friday</strong></li>
+</ul>
 
-- Monday
-- Wednesday
-- Friday
-
-**Time:** **9:00 AM**
-
+<p>at <strong>9:00 AM</strong>.</p>
 </div>
-
 </div>
 
 <div class="rule">
+<h3>POI Wipe</h3>
 
-## POI Wipe
-
-A **POI Wipe** restores every Point of Interest to its original state, even if a player has claimed it with their own core.
+<p>
+    A <strong>POI Wipe</strong> restores every Point of Interest to its original state, even if a player has claimed it with their own core.
+</p>
 
 <div class="warning">
-
-**Don't live in POIs.**
-
-Claiming a POI with your own core does **not** protect it from a POI wipe.
-
+<strong>Don't live in POIs.</strong>
+Claiming a POI with your own core does <strong>not</strong> protect it from a POI wipe.
 </div>
 
 <div class="subsection">
+<h4>Schedule</h4>
 
-#### Schedule
-
-- Every Planet
-- **Daily**
-
+<ul>
+<li><strong>Every Planet</strong></li>
+<li><strong>Daily</strong></li>
+</ul>
 </div>
-
 </div>
 
 <div class="rule">
+<h3>Personal Wipe</h3>
 
-## Personal Wipe
+<p>
+    The <strong>Personal Wipe Counter</strong> applies only to the <strong>Starter System</strong> (starter planets and their orbits).
+</p>
 
-The **Personal Wipe Counter** only applies to the **Starter System** (starter planets and their orbits).
-
-Each spawned structure has its own independent **7-day timer**.
+<p>
+    Each spawned structure has its own independent <strong>7-day timer</strong>.
+</p>
 
 <div class="subsection">
+<h4>Check Your Timer</h4>
 
-#### Check Your Timer
+<p>Use:</p>
 
-Use:
+<pre><code>cb:wipe</code></pre>
 
-```text
-cb:wipe
-```
+<p>Run it in:</p>
 
-Run it in:
-
-- **Faction Chat** (if you're in a faction)
-- **Global Chat** (if you're not)
-
+<ul>
+<li><strong>Faction Chat</strong> (if you're in a faction)</li>
+<li><strong>Global Chat</strong> (if you're not)</li>
+</ul>
 </div>
 
 <div class="subsection">
+<h4>Example</h4>
 
-#### Example
+<table>
+<thead>
+<tr>
+<th>Structure</th>
+<th>Built</th>
+<th>Result</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>SV</td>
+<td>3rd</td>
+<td>Removed by the 13th</td>
+</tr>
+<tr>
+<td>Base</td>
+<td>8th</td>
+<td>Still has 2 days remaining</td>
+</tr>
+</tbody>
+</table>
+</div>
 
-| Structure | Built | Result |
-|-----------|-------|--------|
-| SV | 3rd | Removed by the 13th |
-| Base | 8th | Still has 2 days remaining |
+<div class="note">
+The Personal Wipe Counter only applies to the <strong>Starter Planets and their Orbits</strong>. It does <strong>not</strong> affect structures on other playfields.
+</div>
 
 </div>
 
 <div class="note">
-
-The Personal Wipe Counter only applies to **Starter Planets and their Orbits**. It does **not** affect structures on other playfields.
-
+<strong>Best Practice:</strong> Check <code>cb:wipe</code> regularly while you're in the Starter System. Once you move beyond the starter playfields, the Personal Wipe Counter no longer applies.
 </div>
-
-</div>
-
-<div class="note">
-
-## Best Practice
-
-- Check `cb:wipe` regularly while you're in the Starter System.
-- Move important structures off the Starter playfields before their timer expires.
-- Remember that once you're outside the Starter System, the Personal Wipe Counter no longer applies.
 
 </div>
