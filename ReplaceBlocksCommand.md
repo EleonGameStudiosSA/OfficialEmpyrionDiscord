@@ -1,18 +1,37 @@
-# Replace Blocks Command Guide
-
-> **Warning:** **Do not use this in multiplayer.** This command permanently modifies a structure and **cannot be undone.**
-
-The `replaceblocks` command replaces one block type with another throughout an entire vessel or base. The ID used is the **Vessel/Base ID**, not an individual block ID.
-
+---
+layout: default
+title: Replace Blocks Command Guide
 ---
 
-## Basic Syntax
+<div class="warning">
+
+**DO NOT USE THIS IN MULTIPLAYER!**
+
+This command permanently modifies a structure and **cannot be undone.**
+
+</div>
+
+<div class="rule">
+
+## What the Command Does
+
+The `replaceblocks` command replaces one block type with another throughout an entire vessel or base.
+
+The number used is the **Vessel/Base ID**, not an individual block ID.
+
+<div class="subsection">
+
+#### Basic Syntax
 
 ```text
 replaceblocks <StructureID> <FromBlock> <ToBlock>
 ```
 
-### Examples
+</div>
+
+<div class="subsection">
+
+#### Examples
 
 Upgrade Steel to Combat Steel:
 
@@ -26,7 +45,11 @@ Upgrade Concrete to Armored Concrete:
 replaceblocks 1009 ConcreteFull ConcreteArmoredFull
 ```
 
----
+</div>
+
+</div>
+
+<div class="rule">
 
 ## Block Groups
 
@@ -48,9 +71,15 @@ Block Groups replace every matching block within the structure, making large upg
 | `HullArmoredSmallBlocks` | HV, SV | Hardened Steel (Small) |
 | `HullCombatSmallBlocks` | HV | Combat Steel (Small) |
 
----
+</div>
+
+<div class="rule">
 
 ## Removing Blocks
+
+<div class="subsection">
+
+#### Empty Block Space
 
 You can remove blocks entirely by replacing them with `empty` or `0`.
 
@@ -60,17 +89,27 @@ replaceblocks 1009 ContainerExtension empty
 
 This is especially useful for mass-removing Container Extensions or other unwanted blocks.
 
----
+</div>
+
+</div>
+
+<div class="rule">
 
 ## Special Block Types
 
-### Truss Blocks
+<div class="subsection">
+
+#### Truss Blocks
 
 - `TrussCube`
 - `TrussWedge`
 - `TrussCorner`
 
-### Shutter Windows
+</div>
+
+<div class="subsection">
+
+#### Shutter Windows
 
 - `WindowVertShutterArmored`
 - `WindowSlopedShutterArmored`
@@ -78,7 +117,11 @@ This is especially useful for mass-removing Container Extensions or other unwant
 - `WindowVertShutterTransArmored`
 - `WindowSlopedShutterTransArmored`
 
-### Normal Windows
+</div>
+
+<div class="subsection">
+
+#### Normal Windows
 
 Includes vertical, sloped, corner, curved, diagonal, and inverted variants.
 
@@ -112,7 +155,11 @@ Window_crc1x1Inv
 Window_crsd1x1Inv
 ```
 
-### Armored Windows
+</div>
+
+<div class="subsection">
+
+#### Armored Windows
 
 All standard window shapes also have armored (`Thick`) variants.
 
@@ -146,7 +193,11 @@ Window_crc1x1ThickInv
 Window_crsd1x1ThickInv
 ```
 
----
+</div>
+
+</div>
+
+<div class="rule">
 
 ## Block Type Reference
 
@@ -166,10 +217,10 @@ Window_crsd1x1ThickInv
 | Hardened Steel (Small) | `HullArmoredFullSmall`, `HullArmoredThinSmall`, `HullArmoredExtendedSmall2-7` |
 | Combat Steel (Small) | `HullCombatFullSmall`, `HullCombatThinSmall`, `HullCombatExtendedSmall2-7` |
 
----
+</div>
 
-## Best Practice
+<div class="note">
 
-- Test `replaceblocks` in **Single Player** or on a backup save first.
-- Double-check the **Structure ID** before running the command.
-- Remember that there is **no built-in undo**, so the changes are permanent.
+**Best Practice:** Test `replaceblocks` in **Single Player** or on a backup save first. Double-check the **Structure ID** before running the command, because there is **no built-in undo**.
+
+</div>

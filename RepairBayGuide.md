@@ -1,19 +1,34 @@
-# Repair Bay Guide
+---
+layout: default
+title: Repair Bay Guide
+---
+
+<div class="rule">
+
+## Repair Bay Guide
 
 If your ship won't repair, the problem is usually caused by an obstruction, incorrect positioning, or an outdated repair template. Follow this checklist before assuming the Repair Bay is broken.
 
----
+</div>
+
+<div class="rule">
 
 ## Repair Bay Checklist
 
-### 1. Keep the Repair Block Unobstructed
+<div class="subsection">
+
+#### 1. Keep the Repair Block Unobstructed
 
 Nothing can cover the **Repair Block**—not even glass.
 
 - Remove any blocks placed directly above the Repair Block.
 - Ensure there is a clear vertical path above it.
 
-### 2. Clear the Entire Repair Area
+</div>
+
+<div class="subsection">
+
+#### 2. Clear the Entire Repair Area
 
 The Repair Bay needs enough space for the ship's **entire blueprint**.
 
@@ -24,13 +39,21 @@ Make sure there are no:
 - Nearby structures
 - Other obstacles within the repair area
 
-### 3. Account for the Ship's Bounding Box
+</div>
+
+<div class="subsection">
+
+#### 3. Account for the Ship's Bounding Box
 
 Every ship has an invisible bounding box that extends roughly **5–10 blocks** beyond the wings, nose, and tail.
 
 Keep this additional space clear as well.
 
-### 4. Position the Ship Correctly
+</div>
+
+<div class="subsection">
+
+#### 4. Position the Ship Correctly
 
 Before starting repairs:
 
@@ -38,7 +61,11 @@ Before starting repairs:
 - Undock any attached ships or vessels.
 - Ensure the ship is sitting fully within the repair area.
 
-### 5. Update the Repair Template
+</div>
+
+<div class="subsection">
+
+#### 5. Update the Repair Template
 
 Every time you modify your ship:
 
@@ -47,19 +74,33 @@ Every time you modify your ship:
 
 If you don't update the template, the Repair Bay will restore the last saved version—or the original Factory Blueprint if no custom template exists.
 
----
+</div>
+
+</div>
+
+<div class="rule">
 
 ## Alternative Repair Options
 
-### Build a Repair Station in Space
+<div class="subsection">
+
+#### Build a Repair Station in Space
 
 A Repair Station in orbit avoids many of the obstruction problems caused by terrain and nearby structures.
 
-### Use Station Repair Services
+</div>
+
+<div class="subsection">
+
+#### Use Station Repair Services
 
 Many compatible stations offer repair services, allowing you to repair your ship without using your own Repair Bay.
 
----
+</div>
+
+</div>
+
+<div class="note">
 
 ## Quick Tip
 
@@ -69,3 +110,5 @@ The most common reasons a Repair Bay fails are:
 - The ship's invisible bounding box is obstructed.
 - The ship isn't centered on the Repair Pad.
 - The Repair Template wasn't updated after modifying the ship.
+
+</div>

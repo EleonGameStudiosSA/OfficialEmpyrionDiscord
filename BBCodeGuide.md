@@ -1,12 +1,23 @@
-# BBCode Tags for Device Names
+---
+layout: default
+title: BBCode Tags for Device Names
+---
+
+<div class="rule">
+
+## BBCode Support
 
 Device names in the **Control Panel** support a selection of BBCode formatting tags. These tags allow you to organize and color-code devices for easier navigation.
 
----
+</div>
+
+<div class="rule">
 
 ## Text Formatting Tags
 
-### Basic Formatting
+<div class="subsection">
+
+#### Basic Formatting
 
 | Tag | Effect |
 |------|--------|
@@ -17,17 +28,27 @@ Device names in the **Control Panel** support a selection of BBCode formatting t
 | `[sup][/sup]` | Superscript |
 | `[sub][/sub]` | Subscript |
 
----
+</div>
+
+</div>
+
+<div class="rule">
 
 ## Color Tags
 
-### Base Color
+<div class="subsection">
+
+#### Base Color
 
 | Tag | Effect |
 |------|--------|
 | `[c][/c]` | Sets the text base color to white instead of the default light-blue. |
 
-### Hex Colors
+</div>
+
+<div class="subsection">
+
+#### Hex Colors
 
 | Tag | Effect |
 |------|--------|
@@ -36,11 +57,17 @@ Device names in the **Control Panel** support a selection of BBCode formatting t
 
 The closing tag for hex colors is `[-]`.
 
----
+</div>
+
+</div>
+
+<div class="rule">
 
 ## How Color Mixing Works
 
-### Using `[c]` with Hex Colors
+<div class="subsection">
+
+#### Using `[c]` with Hex Colors
 
 The default device-name color is **light blue**. Hex colors are multiplied against this base color, so they inherit a blue tint unless you reset the base color first.
 
@@ -52,11 +79,17 @@ For pure white, use:
 
 If you omit `[c]`, the text keeps the default light-blue tint, which can be useful if you want to save a few characters.
 
----
+</div>
+
+</div>
+
+<div class="rule">
 
 ## Example Formatting
 
-### Common Examples
+<div class="subsection">
+
+#### Common Examples
 
 ```text
 [b]Main Generator[/b]
@@ -68,8 +101,12 @@ If you omit `[c]`, the text keeps the default light-blue tint, which can be usef
 [c][FF0000]Warning[-][/c]
 ```
 
----
+</div>
 
-## Tip
+</div>
 
-Combining `[c]` with hex colors gives accurate color reproduction, while skipping `[c]` produces a blue-tinted version that can help save characters in device names.
+<div class="note">
+
+**Tip:** Combining `[c]` with hex colors gives accurate color reproduction, while skipping `[c]` produces a blue-tinted version that can help save characters in device names.
+
+</div>
