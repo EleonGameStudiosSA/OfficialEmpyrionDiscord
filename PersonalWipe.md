@@ -15,11 +15,22 @@ Empyrion uses several different types of wipes, each affecting different parts o
 
 ## Full Wipe
 
-A **Full Wipe** means a complete server wipe.
+A **Full Wipe** is a complete server reset.
 
-You lose your entire progress except for the contents of your **Orbital Auto Miner** (use `am:?` in chat to check it).
+Everything is removed except the contents of your **Orbital Auto Miner** (check it with `am:?` in chat).
 
-A Full Wipe generally happens with every major Empyrion patch, which has been roughly every **3 months** so far.
+<div class="warning">
+
+**Everything else is lost.**
+
+- Bases
+- Ships
+- Inventory
+- Progress
+
+</div>
+
+A Full Wipe generally happens with every major Empyrion patch, which has been roughly **every 3 months**.
 
 </div>
 
@@ -27,16 +38,20 @@ A Full Wipe generally happens with every major Empyrion patch, which has been ro
 
 ## Playfield Wipe
 
-A **Playfield Wipe** removes every structure and placed device on a specific playfield.
+A **Playfield Wipe** removes everything built or placed on a specific playfield.
 
-You lose:
+<div class="subsection">
+
+#### What is removed
 
 - Bases
 - Ships left on that playfield
 - Water Generators
 - Other placed devices
 
-Your inventory and anything located on other playfields remain safe.
+Your inventory and anything on other playfields remain safe.
+
+</div>
 
 <div class="note">
 
@@ -52,7 +67,9 @@ Your inventory and anything located on other playfields remain safe.
 
 A **Hard Ground Wipe** restores an entire planet's terrain to its original state.
 
-This means:
+<div class="subsection">
+
+#### What changes
 
 - Every dug hole is filled.
 - Every placeable device (such as Water Generators) is removed.
@@ -60,9 +77,13 @@ This means:
 
 Your structures and inventory remain safe.
 
+</div>
+
 <div class="warning">
 
-Be careful with **Structural Integrity**, as terrain supporting your base may change.
+**Structural Integrity Warning**
+
+Terrain supporting your base may change, so unsupported structures can become unstable.
 
 </div>
 
@@ -78,25 +99,29 @@ Be careful with **Structural Integrity**, as terrain supporting your base may ch
 
 ## Soft Ground / Surface Wipe
 
-A **Soft Ground Wipe** works similarly to a Hard Ground Wipe, but the terrain around and inside your base is preserved.
+A **Soft Ground Wipe** works like a Hard Ground Wipe, except terrain around player bases is preserved.
 
-This means:
+<div class="subsection">
+
+#### What changes
 
 - Underground bases remain protected.
-- Terrain surrounding player bases is not reset.
+- Terrain around player bases is untouched.
 - Placeable devices such as Water Generators are removed.
+
+</div>
 
 <div class="subsection">
 
 #### Schedule
 
-Starter Planets are wiped:
+**Starter Planets**
 
-- **Monday**
-- **Wednesday**
-- **Friday**
+- Monday
+- Wednesday
+- Friday
 
-at **9:00 AM**.
+**Time:** **9:00 AM**
 
 </div>
 
@@ -112,13 +137,13 @@ A **Deposit Wipe** regenerates every resource deposit back to **100%** and reset
 
 #### Schedule
 
-Starter Planets are wiped:
+**Starter Planets**
 
-- **Monday**
-- **Wednesday**
-- **Friday**
+- Monday
+- Wednesday
+- Friday
 
-at **9:00 AM**.
+**Time:** **9:00 AM**
 
 </div>
 
@@ -130,13 +155,19 @@ at **9:00 AM**.
 
 A **POI Wipe** restores every Point of Interest to its original state, even if a player has claimed it with their own core.
 
-Because of this, it is **not recommended** to permanently live inside POIs.
+<div class="warning">
+
+**Don't live in POIs.**
+
+Claiming a POI with your own core does **not** protect it from a POI wipe.
+
+</div>
 
 <div class="subsection">
 
 #### Schedule
 
-- **Every Planet**
+- Every Planet
 - **Daily**
 
 </div>
@@ -147,39 +178,41 @@ Because of this, it is **not recommended** to permanently live inside POIs.
 
 ## Personal Wipe
 
-The **Personal Wipe Counter** applies only to the **Starter System** (starter planets and their orbits).
+The **Personal Wipe Counter** only applies to the **Starter System** (starter planets and their orbits).
 
-Each spawned structure has its own independent **7-day** timer.
+Each spawned structure has its own independent **7-day timer**.
 
-You can always check your remaining time with the command:
+<div class="subsection">
+
+#### Check Your Timer
+
+Use:
 
 ```text
 cb:wipe
 ```
 
-Use it in:
+Run it in:
 
-- **Faction Chat** (if you're in a faction), or
-- **Global Chat** (if you're not).
+- **Faction Chat** (if you're in a faction)
+- **Global Chat** (if you're not)
+
+</div>
 
 <div class="subsection">
 
 #### Example
 
-- Build an **SV** on the **3rd** of the month.
-- Build a **Base** on the **8th**.
-- Try leaving Eleen on the **13th**.
-
-Result:
-
-- The **SV** has already been removed.
-- The **Base** still has **2 days** remaining.
+| Structure | Built | Result |
+|-----------|-------|--------|
+| SV | 3rd | Removed by the 13th |
+| Base | 8th | Still has 2 days remaining |
 
 </div>
 
 <div class="note">
 
-The Personal Wipe Counter only applies to the **Starter Planets and their Orbits**. It does **not** affect structures on other playfields.
+The Personal Wipe Counter only applies to **Starter Planets and their Orbits**. It does **not** affect structures on other playfields.
 
 </div>
 
@@ -189,6 +222,8 @@ The Personal Wipe Counter only applies to the **Starter Planets and their Orbits
 
 ## Best Practice
 
-Check your `cb:wipe` timer regularly while you're in the Starter System. Once you move beyond the starter playfields, the Personal Wipe Counter no longer applies.
+- Check `cb:wipe` regularly while you're in the Starter System.
+- Move important structures off the Starter playfields before their timer expires.
+- Remember that once you're outside the Starter System, the Personal Wipe Counter no longer applies.
 
 </div>
