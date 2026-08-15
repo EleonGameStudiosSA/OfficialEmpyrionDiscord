@@ -1,8 +1,11 @@
-remote_theme: pages-themes/midnight@v0.2.0
-plugins:
-- jekyll-remote-theme
+# remote_theme: pages-themes/midnight@v0.2.0
+# plugins:
+# - jekyll-remote-theme
 
 title: Empyrion - Galactic Survival
 tagline: Official gameplay guides, mechanics, and reference library
 description: A comprehensive collection of Empyrion - Galactic Survival guides covering survival, building, power, oxygen systems, repair mechanics, console commands, and official server gameplay
 show_downloads: false
+
+markdown: kramdown
+permalink: pretty
