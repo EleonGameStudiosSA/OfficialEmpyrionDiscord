@@ -3,119 +3,116 @@ layout: default
 title: Solar Energy Guide
 ---
 
+
+
 <div class="rule">
-
-## How Solar Energy Works
-
-Solar panels generate electricity based on how much sunlight reaches them throughout the day. Their placement, environmental conditions, and the position of the sun all affect their efficiency.
-
+<h3>How Solar Energy Works</h3>
+<p>
+            Solar panels generate electricity based on how much sunlight reaches them throughout the day.
+            Their placement, environmental conditions, and the position of the sun all affect their efficiency.
+        </p>
 <div class="subsection">
-
-#### How the System Works
-
-- The game calculates how many sun rays reach each solar panel throughout the day.
-- Average daily efficiency is shown by the **green LED indicators** (up to four lights).
-- Current real-time efficiency is shown by the **yellow LED indicators** (up to four lights).
-- When solar production exceeds your current power usage, the excess energy is stored in the **Solar Capacitor**.
-- Stored energy appears as a battery icon in the Control Panel.
-
+<h4>How the System Works</h4>
+<ul>
+<li>The game calculates how many sun rays reach each solar panel throughout the day.</li>
+<li>This average efficiency is shown by the <strong>green LED indicators</strong> (up to four lights).</li>
+<li>Current real-time efficiency is shown by the <strong>yellow LED indicators</strong> (up to four lights).</li>
+<li>When solar production exceeds your current power usage, the excess energy is stored in the <strong>Solar Capacitor</strong>.</li>
+<li>The stored energy appears as a battery icon in the Control Panel.</li>
+</ul>
 </div>
-
 <div class="note">
-
-**Important:** Fuel generators never charge the Solar Capacitor. Only energy produced by Solar Panels can be stored.
-
+<strong>Important:</strong> Fuel generators never charge the Solar Capacitor. Only energy produced by Solar Panels can be stored.
+        </div>
 </div>
-
-</div>
-
 <div class="rule">
-
-## Solar Efficiency on Planets
-
-Planetary solar production is affected by both local placement and global environmental conditions.
-
+<h3>Solar Efficiency on Planets</h3>
+<p>
+            Planetary solar production is affected by both local placement and global environmental conditions.
+        </p>
 <div class="subsection">
-
-#### Placement Factors
-
-- Trees, rocks, mountains, and structures can block sunlight and reduce efficiency.
-- Panels perform best when sunlight strikes them at a perpendicular angle.
-- Near the equator, flat panels perform best around noon.
-- Near the poles, angled panels usually perform better.
-
+<h4>Placement Factors</h4>
+<ul>
+<li>Obstacles such as trees, rocks, mountains, or structures reduce efficiency.</li>
+<li>Panels perform best when sunlight strikes them at a perpendicular angle.</li>
+<li>Near the equator, flat panels perform best around noon.</li>
+<li>Near the poles, angled panels usually perform better.</li>
+</ul>
 </div>
-
 <div class="subsection">
-
-#### Environmental Factors
-
-- **DayLightIntensity** increases or decreases solar output across the entire playfield.
-- Clouds and rain reduce effective sunlight.
-- Higher atmosphere density lowers efficiency.
-- Latitude matters—the closer to the poles, the less efficient panels become.
-- Ground fog also reduces production.
-
+<h4>Environmental Factors</h4>
+<ul>
+<li><strong>DayLightIntensity</strong> increases or decreases solar output across the entire playfield.</li>
+<li>Clouds and rain reduce effective sunlight.</li>
+<li>Higher atmosphere density lowers efficiency.</li>
+<li>Latitude matters—the closer to the poles, the less efficient panels become.</li>
+<li>Ground fog also reduces production.</li>
+</ul>
 </div>
-
 </div>
-
 <div class="rule">
-
-## Solar Efficiency in Space
-
-Space eliminates most atmospheric penalties, making solar power much more effective in many orbital playfields.
-
+<h3>Solar Efficiency in Space</h3>
+<p>
+            Space eliminates most atmospheric penalties, making solar power much more effective in many orbital playfields.
+        </p>
 <div class="subsection">
-
-#### Space Factors
-
-- Panels are most efficient when facing directly toward the sun.
-- The farther an orbit is from its star, the lower the solar output.
-
+<h4>Space Factors</h4>
+<ul>
+<li>Panels are most efficient when facing the sun directly.</li>
+<li>The farther an orbit is from its star, the lower the solar output.</li>
+</ul>
 </div>
-
 </div>
-
 <div class="rule">
-
-## Changes Since Alpha 12
-
+<h3>Changes Since Alpha 12</h3>
 <div class="subsection">
-
-#### Updated Solar Rules
-
-- Space generally produces more solar power than planets.
-- The closer a planet is to its star, the more solar energy it receives.
-- Thicker atmospheres reduce production.
-- Weather now directly affects solar generation.
-
+<h4>Updated Solar Rules</h4>
+<ul>
+<li>Space generally produces more solar power than planets.</li>
+<li>The closer a planet is to its star, the more solar energy it receives.</li>
+<li>Thicker atmospheres reduce production.</li>
+<li>Weather now directly affects solar generation.</li>
+</ul>
 </div>
-
 </div>
-
 <div class="rule">
-
-## Solar Energy Examples
-
-These examples illustrate how distance from the sun and atmospheric conditions influence Solar Energy (SE).
-
-| Location | Planet SE | Orbit SE | Notes |
-|----------|----------:|---------:|-------|
-| Eyutw | 115 | 150 | Starting planet with improved orbital output. |
-| Pancian | 46 | 46 | Far from the sun with almost no atmosphere. |
-| Puoeure | 100 | 600 | Close to the sun; orbit benefits enormously despite the planet's thick atmosphere. |
-
+<h3>Solar Energy Examples</h3>
+<p>
+            The examples below illustrate how distance from the sun and atmospheric conditions influence Solar Energy (SE).
+        </p>
+<table>
+<thead>
+<tr>
+<th>Location</th>
+<th>Planet SE</th>
+<th>Orbit SE</th>
+<th>Notes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Eyutw</td>
+<td>115</td>
+<td>150</td>
+<td>Starting planet with improved orbital output.</td>
+</tr>
+<tr>
+<td>Pancian</td>
+<td>46</td>
+<td>46</td>
+<td>Far from the sun with almost no atmosphere.</td>
+</tr>
+<tr>
+<td>Puoeure</td>
+<td>100</td>
+<td>600</td>
+<td>Close to the sun; orbit benefits enormously despite the planet's thick atmosphere.</td>
+</tr>
+</tbody>
+</table>
 </div>
-
 <div class="note">
+<strong>Best Practice:</strong>
+        Position solar panels with a clear view of the sky, orient them toward the sun whenever possible, and remember that orbital bases usually produce significantly more solar power than planetary bases.
+    </div>
 
-## Best Practice
-
-For the best solar performance:
-
-- Keep panels unobstructed with a clear view of the sky.
-- Orient panels toward the sun whenever possible.
-- Consider building orbital bases, as they usually produce significantly more solar power than planetary bases.
-
-</div>

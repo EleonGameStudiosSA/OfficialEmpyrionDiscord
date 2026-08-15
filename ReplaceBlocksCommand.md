@@ -1,132 +1,101 @@
 ---
 layout: default
-title: Replace Blocks Command Guide
+title: Replace Blocks Command
 ---
 
+
+
 <div class="warning">
-
-**DO NOT USE THIS IN MULTIPLAYER!**
-
-This command permanently modifies a structure and **cannot be undone.**
-
+<strong>DO NOT USE THIS IN MULTIPLAYER!</strong><br/>
+        This command permanently modifies a structure and <strong>cannot be undone.</strong>
 </div>
-
 <div class="rule">
-
-## What the Command Does
-
-The `replaceblocks` command replaces one block type with another throughout an entire vessel or base.
-
-The number used is the **Vessel/Base ID**, not an individual block ID.
-
+<h3>What the Command Does</h3>
+<p>
+            The <code>replaceblocks</code> command replaces one block type with another throughout an entire vessel or base.
+            The number used is the <strong>Vessel/Base ID</strong>, not an individual block ID.
+        </p>
 <div class="subsection">
-
-#### Basic Syntax
-
-```text
-replaceblocks <StructureID> <FromBlock> <ToBlock>
-```
-
+<h4>Basic Syntax</h4>
+<pre><code>replaceblocks &lt;StructureID&gt; &lt;FromBlock&gt; &lt;ToBlock&gt;</code></pre>
 </div>
-
 <div class="subsection">
-
-#### Examples
-
-Upgrade Steel to Combat Steel:
-
-```text
-replaceblocks 1009 HullLargeBlocks HullCombatLargeBlocks
-```
-
-Upgrade Concrete to Armored Concrete:
-
-```text
-replaceblocks 1009 ConcreteFull ConcreteArmoredFull
-```
-
+<h4>Examples</h4>
+<p>Upgrade Steel to Combat Steel:</p>
+<pre><code>replaceblocks 1009 HullLargeBlocks HullCombatLargeBlocks</code></pre>
+<p>Upgrade Concrete to Armored Concrete:</p>
+<pre><code>replaceblocks 1009 ConcreteFull ConcreteArmoredFull</code></pre>
 </div>
-
 </div>
-
 <div class="rule">
-
-## Block Groups
-
-Block Groups replace every matching block within the structure, making large upgrades much faster.
-
-| Block Group | Structures | Material |
-|-------------|------------|----------|
-| `WoodBlocks` | BA | Wood |
-| `ConcreteBlocks` | BA | Concrete |
-| `ConcreteArmoredBlocks` | BA | Armored Concrete |
-| `PlasticLargeBlocks` | BA, CV | Carbon Composite (Large) |
-| `HullLargeBlocks` | BA, CV | Steel (Large) |
-| `HullArmoredLargeBlocks` | BA, CV | Hardened Steel (Large) |
-| `HullCombatLargeBlocks` | BA, CV | Combat Steel (Large) |
-| `AlienLargeBlocks` | BA, CV | Xeno Steel |
-| `AlienBlocks` | POIs | Alien Building Blocks |
-| `PlasticSmallBlocks` | HV, SV | Carbon Composite (Small) |
-| `HullSmallBlocks` | HV, SV | Steel (Small) |
-| `HullArmoredSmallBlocks` | HV, SV | Hardened Steel (Small) |
-| `HullCombatSmallBlocks` | HV | Combat Steel (Small) |
-
+<h3>Block Groups</h3>
+<p>
+            Block Groups replace every matching block within the structure, making upgrades much faster.
+        </p>
+<table>
+<thead>
+<tr>
+<th>Block Group</th>
+<th>Structures</th>
+<th>Material</th>
+</tr>
+</thead>
+<tbody>
+<tr><td><code>WoodBlocks</code></td><td>BA</td><td>Wood</td></tr>
+<tr><td><code>ConcreteBlocks</code></td><td>BA</td><td>Concrete</td></tr>
+<tr><td><code>ConcreteArmoredBlocks</code></td><td>BA</td><td>Armored Concrete</td></tr>
+<tr><td><code>PlasticLargeBlocks</code></td><td>BA, CV</td><td>Carbon Composite (Large)</td></tr>
+<tr><td><code>HullLargeBlocks</code></td><td>BA, CV</td><td>Steel (Large)</td></tr>
+<tr><td><code>HullArmoredLargeBlocks</code></td><td>BA, CV</td><td>Hardened Steel (Large)</td></tr>
+<tr><td><code>HullCombatLargeBlocks</code></td><td>BA, CV</td><td>Combat Steel (Large)</td></tr>
+<tr><td><code>AlienLargeBlocks</code></td><td>BA, CV</td><td>Xeno Steel</td></tr>
+<tr><td><code>AlienBlocks</code></td><td>POIs</td><td>Alien Building Blocks</td></tr>
+<tr><td><code>PlasticSmallBlocks</code></td><td>HV, SV</td><td>Carbon Composite (Small)</td></tr>
+<tr><td><code>HullSmallBlocks</code></td><td>HV, SV</td><td>Steel (Small)</td></tr>
+<tr><td><code>HullArmoredSmallBlocks</code></td><td>HV, SV</td><td>Hardened Steel (Small)</td></tr>
+<tr><td><code>HullCombatSmallBlocks</code></td><td>HV</td><td>Combat Steel (Small)</td></tr>
+</tbody>
+</table>
 </div>
-
 <div class="rule">
-
-## Removing Blocks
-
+<h3>Removing Blocks</h3>
 <div class="subsection">
-
-#### Empty Block Space
-
-You can remove blocks entirely by replacing them with `empty` or `0`.
-
-```text
-replaceblocks 1009 ContainerExtension empty
-```
-
-This is especially useful for mass-removing Container Extensions or other unwanted blocks.
-
+<h4>Empty Block Space</h4>
+<p>
+                You can remove blocks entirely by replacing them with <code>empty</code> or <code>0</code>.
+            </p>
+<pre><code>replaceblocks 1009 ContainerExtension empty</code></pre>
+<p>
+                This is especially useful for mass-removing container extensions or other unwanted blocks.
+            </p>
 </div>
-
 </div>
-
 <div class="rule">
-
-## Special Block Types
-
+<h3>Special Block Types</h3>
 <div class="subsection">
-
-#### Truss Blocks
-
-- `TrussCube`
-- `TrussWedge`
-- `TrussCorner`
-
+<h4>Truss Blocks</h4>
+<div class="compact">
+<code>TrussCube</code>
+<code>TrussWedge</code>
+<code>TrussCorner</code>
 </div>
-
-<div class="subsection">
-
-#### Shutter Windows
-
-- `WindowVertShutterArmored`
-- `WindowSlopedShutterArmored`
-- `WindowSloped2ShutterArmored`
-- `WindowVertShutterTransArmored`
-- `WindowSlopedShutterTransArmored`
-
 </div>
-
 <div class="subsection">
-
-#### Normal Windows
-
-Includes vertical, sloped, corner, curved, diagonal, and inverted variants.
-
-```text
-Window_v1x1
+<h4>Shutter Windows</h4>
+<div class="compact">
+<code>WindowVertShutterArmored</code>
+<code>WindowSlopedShutterArmored</code>
+<code>WindowSloped2ShutterArmored</code>
+<code>WindowVertShutterTransArmored</code>
+<code>WindowSlopedShutterTransArmored</code>
+</div>
+</div>
+<div class="subsection">
+<h4>Normal Windows</h4>
+<p>
+                Includes vertical, sloped, corner, curved, diagonal, and inverted variants.
+            </p>
+<pre><code>Window_v1x1
 Window_v1x2
 Window_v2x2
 Window_s1x1
@@ -152,19 +121,14 @@ Window_c1x1Inv
 Window_c1x2Inv
 Window_cr1x1Inv
 Window_crc1x1Inv
-Window_crsd1x1Inv
-```
-
+Window_crsd1x1Inv</code></pre>
 </div>
-
 <div class="subsection">
-
-#### Armored Windows
-
-All standard window shapes also have armored (`Thick`) variants.
-
-```text
-Window_v1x1Thick
+<h4>Armored Windows</h4>
+<p>
+                All standard window shapes also have armored ("Thick") variants.
+            </p>
+<pre><code>Window_v1x1Thick
 Window_v1x2Thick
 Window_v2x2Thick
 Window_s1x1Thick
@@ -190,37 +154,75 @@ Window_c1x1ThickInv
 Window_c1x2ThickInv
 Window_cr1x1ThickInv
 Window_crc1x1ThickInv
-Window_crsd1x1ThickInv
-```
-
+Window_crsd1x1ThickInv</code></pre>
 </div>
-
 </div>
-
 <div class="rule">
-
-## Block Type Reference
-
-| Material | Block Types |
-|----------|-------------|
-| Wood | `WoodFull`, `WoodThin`, `WoodExtended2-7` |
-| Concrete | `ConcreteFull`, `ConcreteThin`, `ConcreteExtended2-7` |
-| Armored Concrete | `ConcreteArmoredFull`, `ConcreteArmoredThin`, `ConcreteArmoredExtended2-7` |
-| Carbon Composite (Large) | `PlasticFullLarge`, `PlasticThinLarge`, `PlasticExtendedLarge2-7` |
-| Steel (Large) | `HullFullLarge`, `HullThinLarge`, `HullExtendedLarge2-7` |
-| Hardened Steel (Large) | `HullArmoredFullLarge`, `HullArmoredThinLarge`, `HullArmoredExtendedLarge2-7` |
-| Combat Steel (Large) | `HullCombatFullLarge`, `HullCombatThinLarge`, `HullCombatExtendedLarge2-7` |
-| Xeno Steel | `AlienFullLarge`, `AlienThinLarge`, `AlienExtendedLarge2-7` |
-| Alien Building | `AlienFull`, `AlienThin`, `AlienExtended2-7` |
-| Carbon Composite (Small) | `PlasticFullSmall`, `PlasticThinSmall`, `PlasticExtendedSmall2-7` |
-| Steel (Small) | `HullFullSmall`, `HullThinSmall`, `HullExtendedSmall2-7` |
-| Hardened Steel (Small) | `HullArmoredFullSmall`, `HullArmoredThinSmall`, `HullArmoredExtendedSmall2-7` |
-| Combat Steel (Small) | `HullCombatFullSmall`, `HullCombatThinSmall`, `HullCombatExtendedSmall2-7` |
-
+<h3>Block Type Reference</h3>
+<table>
+<thead>
+<tr>
+<th>Material</th>
+<th>Block Types</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Wood</td>
+<td><code>WoodFull</code>, <code>WoodThin</code>, <code>WoodExtended2-7</code></td>
+</tr>
+<tr>
+<td>Concrete</td>
+<td><code>ConcreteFull</code>, <code>ConcreteThin</code>, <code>ConcreteExtended2-7</code></td>
+</tr>
+<tr>
+<td>Armored Concrete</td>
+<td><code>ConcreteArmoredFull</code>, <code>ConcreteArmoredThin</code>, <code>ConcreteArmoredExtended2-7</code></td>
+</tr>
+<tr>
+<td>Carbon Composite (Large)</td>
+<td><code>PlasticFullLarge</code>, <code>PlasticThinLarge</code>, <code>PlasticExtendedLarge2-7</code></td>
+</tr>
+<tr>
+<td>Steel (Large)</td>
+<td><code>HullFullLarge</code>, <code>HullThinLarge</code>, <code>HullExtendedLarge2-7</code></td>
+</tr>
+<tr>
+<td>Hardened Steel (Large)</td>
+<td><code>HullArmoredFullLarge</code>, <code>HullArmoredThinLarge</code>, <code>HullArmoredExtendedLarge2-7</code></td>
+</tr>
+<tr>
+<td>Combat Steel (Large)</td>
+<td><code>HullCombatFullLarge</code>, <code>HullCombatThinLarge</code>, <code>HullCombatExtendedLarge2-7</code></td>
+</tr>
+<tr>
+<td>Xeno Steel</td>
+<td><code>AlienFullLarge</code>, <code>AlienThinLarge</code>, <code>AlienExtendedLarge2-7</code></td>
+</tr>
+<tr>
+<td>Alien Building</td>
+<td><code>AlienFull</code>, <code>AlienThin</code>, <code>AlienExtended2-7</code></td>
+</tr>
+<tr>
+<td>Carbon Composite (Small)</td>
+<td><code>PlasticFullSmall</code>, <code>PlasticThinSmall</code>, <code>PlasticExtendedSmall2-7</code></td>
+</tr>
+<tr>
+<td>Steel (Small)</td>
+<td><code>HullFullSmall</code>, <code>HullThinSmall</code>, <code>HullExtendedSmall2-7</code></td>
+</tr>
+<tr>
+<td>Hardened Steel (Small)</td>
+<td><code>HullArmoredFullSmall</code>, <code>HullArmoredThinSmall</code>, <code>HullArmoredExtendedSmall2-7</code></td>
+</tr>
+<tr>
+<td>Combat Steel (Small)</td>
+<td><code>HullCombatFullSmall</code>, <code>HullCombatThinSmall</code>, <code>HullCombatExtendedSmall2-7</code></td>
+</tr>
+</tbody>
+</table>
 </div>
-
 <div class="note">
+<strong>Best Practice:</strong> Test the <code>replaceblocks</code> command in Single Player or on a backup save first. Since the command permanently modifies the structure, there is no built-in undo.
+    </div>
 
-**Best Practice:** Test `replaceblocks` in **Single Player** or on a backup save first. Double-check the **Structure ID** before running the command, because there is **no built-in undo**.
-
-</div>

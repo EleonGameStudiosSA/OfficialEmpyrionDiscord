@@ -33,25 +33,36 @@ body{
     font-size:18px;
 }
 
-h1,h2,h3,h4{
+/* Headings */
+
+h1,h2,h3{
     color:#ffcc66;
 }
 
-h3{
-    font-size:22px;
+h4,h5,h6{
+    color:#7aa2ff;
 }
+
+h1{font-size:40px;}
+h2{font-size:30px;}
+h3{font-size:22px;}
 
 p{
     color:#dddddd;
 }
 
+/* Lists */
+
 ul,ol{
+    margin:10px 0 0 20px;
     color:#dddddd;
 }
 
 li{
     margin-bottom:8px;
 }
+
+/* Main content cards */
 
 .rule{
     background:#1a1a1a;
@@ -60,6 +71,13 @@ li{
     padding:20px;
     margin-bottom:20px;
 }
+
+.rule h2,
+.rule h3{
+    margin-top:0;
+}
+
+/* Blue inset sections */
 
 .subsection{
     margin-top:15px;
@@ -71,8 +89,9 @@ li{
 
 .subsection h4{
     margin-top:0;
-    color:#7aa2ff;
 }
+
+/* Notes */
 
 .note{
     background:#1a1a1a;
@@ -82,6 +101,8 @@ li{
     color:#cccccc;
 }
 
+/* Warnings */
+
 .warning{
     background:#2a1515;
     border-left:4px solid #ff5555;
@@ -89,6 +110,19 @@ li{
     margin-top:20px;
     color:#ffd6d6;
 }
+
+/* Links */
+
+a{
+    color:#7aa2ff;
+    text-decoration:none;
+}
+
+a:hover{
+    text-decoration:underline;
+}
+
+/* Code */
 
 code{
     background:#222222;
@@ -105,12 +139,16 @@ pre{
     padding:15px;
     overflow-x:auto;
     color:#dddddd;
+    margin:15px 0;
 }
 
 pre code{
     background:none;
     padding:0;
+    color:#dddddd;
 }
+
+/* Tables */
 
 table{
     width:100%;
@@ -133,6 +171,8 @@ th{
 tr:nth-child(even){
     background:#161616;
 }
+
+/* Guide cards (used on index) */
 
 .guide-grid{
     display:grid;
@@ -164,31 +204,58 @@ tr:nth-child(even){
     font-size:15px;
 }
 
-a{
-    color:#7aa2ff;
-    text-decoration:none;
+/* Compact code lists */
+
+.compact code{
+    display:block;
+    margin-bottom:4px;
 }
 
-a:hover{
-    text-decoration:underline;
-}
-
-hr{
-    border:none;
-    border-top:1px solid #333;
-    margin:30px 0;
-}
+/* Blockquotes */
 
 blockquote{
     background:#141414;
     border-left:4px solid #5865f2;
     margin:20px 0;
-    padding:10px 15px;
+    padding:12px 15px;
     color:#cccccc;
 }
+
+/* Images */
 
 img{
     max-width:100%;
     height:auto;
     border-radius:8px;
+}
+
+/* Horizontal rules */
+
+hr{
+    border:none;
+    border-top:1px solid #333333;
+    margin:30px 0;
+}
+
+/* Mobile */
+
+@media (max-width:768px){
+
+    .page{
+        padding:25px 15px;
+    }
+
+    .header h1{
+        font-size:32px;
+    }
+
+    .header p{
+        font-size:16px;
+    }
+
+    table{
+        display:block;
+        overflow-x:auto;
+        white-space:nowrap;
+    }
 }

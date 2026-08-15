@@ -1,114 +1,102 @@
 ---
 layout: default
-title: Personal Suit Constructor Guide
+title: Personal Suit Constructor
 ---
 
+
+
+<div class="section">
 <div class="rule">
-
-## Personal Suit Constructor
-
-The **Personal Suit Constructor** is unique because it uses materials directly from **your inventory** (not your toolbar) and can craft a limited selection of essential survival items.
-
-Unlike armor-based crafting, it is always available and is not tied to any armor equipped through an **Armor Locker**.
-
-It can produce four main categories of items that are especially valuable during the early stages of a new game.
-
+<h3>Personal Suit Constructor</h3>
+<p>
+                The <strong>Personal Suit Constructor</strong> is unique because it uses materials
+                directly from your inventory (not your toolbar) and can craft a limited selection
+                of essential items. It is always available and is not tied to any armor equipped
+                through an Armor Locker.
+            </p>
+<p>
+                It can produce four main categories of items that are especially valuable during
+                the early stages of a new game.
+            </p>
 </div>
-
 <div class="rule">
-
-## Available Crafting Categories
-
+<h3>Available Crafting Categories</h3>
 <div class="subsection">
-
-#### A) Food Production
-
-Craft basic foods into more advanced food items, such as converting **Plant Protein** into **Energy Bars**.
-
+<h4>A) Food Production</h4>
+<p>
+                    Craft basic foods into more advanced food items, such as converting
+                    <strong>Plant Protein</strong> into <strong>Energy Bars</strong>.
+                </p>
 </div>
-
 <div class="subsection">
-
-#### B) Medical Supplies
-
-Produce essential survival medicine, including:
-
-- Bandages
-- Antibiotic Medication
-- Antitoxic Medication
-
+<h4>B) Medical Supplies</h4>
+<p>
+                    Produce essential survival medicine including:
+                </p>
+<ul>
+<li>Bandages</li>
+<li>Antibiotic medication</li>
+<li>Antitoxic medication</li>
+</ul>
 </div>
-
 <div class="subsection">
-
-#### C) Emergency Oxygen
-
-A unique function exclusive to the Personal Suit Constructor.
-
-Convert **Water Bottles** into **Emergency O₂ Packs (White)**.
-
+<h4>C) Emergency Oxygen</h4>
+<p>
+                    A unique function exclusive to the Personal Suit Constructor:
+                    convert <strong>Water Bottles</strong> into
+                    <strong>Emergency O₂ Packs (White)</strong>.
+                </p>
 </div>
-
 <div class="subsection">
-
-#### D) Exclusive Survival Devices
-
-These six devices can only be crafted in the Personal Suit Constructor and should be prioritized early in every new game.
-
-##### 1. Survival Tool *(Free)*
-
-Can be crafted immediately and includes three modes accessed with **Right Mouse Button**:
-
-- Defense
-- Salvage
-- Mining Drill
-
-##### 2. Detector *(Free)*
-
-A handheld detector that can be crafted immediately.
-
-##### 3. Survival Tent *(10 Fiber)*
-
-- Creates a respawn point when placed on land.
-- In Single Player, it also allows you to sleep through the night.
-
-##### 4. Portable Heater/Cooler *(1 Iron Ore)*
-
-Place nearby to offset environmental temperature by approximately **30°F**.
-
-##### 5. Water/O₂ Condenser *(2 Iron Ore)*
-
-While powered, it alternates between producing:
-
-- Water Bottles
-- Silver/Green Emergency O₂ Bottles
-
-##### 6. Portable Constructor *(3 Iron Ore)*
-
-One of the most valuable early-game devices.
-
-- Requires no power.
-- Crafts many essential items.
-- Processes important resources, including:
-  - Crushed Rock → Iron, Copper, and Silicon Ore (and Ingots)
-  - Promethium Ore → Promethium Pellets or Small Fuel Cells
-  - Wood → Fiber → Biofuel for early energy production
-
+<h4>D) Exclusive Survival Devices</h4>
+<p>
+                    These six devices can only be crafted here and should be prioritized
+                    early in every new game.
+                </p>
+<ul>
+<li>
+<strong>1. Survival Tool (Free)</strong><br/>
+                        Can be crafted at any time and includes three modes accessed with
+                        Right Mouse Button: Defense, Salvage, and Mining Drill.
+                    </li>
+<li>
+<strong>2. Detector (Free)</strong><br/>
+                        A handheld detector that can be crafted immediately.
+                    </li>
+<li>
+<strong>3. Survival Tent (10 Fiber)</strong><br/>
+                        Place on land to create a respawn point. In Single Player,
+                        it also allows sleeping through the night.
+                    </li>
+<li>
+<strong>4. Portable Heater/Cooler (1 Iron Ore)</strong><br/>
+                        Place nearby to offset environmental temperature by
+                        approximately <strong>30°F</strong>.
+                    </li>
+<li>
+<strong>5. Water/O₂ Condenser (2 Iron Ore)</strong><br/>
+                        Generates alternating Water Bottles and
+                        Silver/Green Emergency O₂ Bottles while powered.
+                    </li>
+<li>
+<strong>6. Portable Constructor (3 Iron Ore)</strong><br/>
+                        One of the most valuable early-game devices. Requires no power,
+                        crafts many essential items, and can process:
+                        <ul>
+<li>Crushed Rock → Iron, Copper, and Silicon Ore (and Ingots)</li>
+<li>Promethium Ore → Promethium Pellets or Small Fuel Cells</li>
+<li>Wood → Fiber → Biofuel for early energy production</li>
+</ul>
+</li>
+</ul>
 </div>
-
 </div>
-
 <div class="note">
-
-**Early Game Tip:** Craft these devices as soon as possible:
-
-1. Survival Tool
-2. Detector
-3. Survival Tent
-4. Portable Heater/Cooler
-5. Water/O₂ Condenser
-6. Portable Constructor
-
-The **Portable Constructor** is especially valuable, as it greatly expands your crafting options without requiring a powered base.
-
+<strong>Early Game Tip:</strong>
+            Prioritize crafting the Survival Tool, Detector, Survival Tent,
+            Portable Heater/Cooler, Water/O₂ Condenser, and especially the
+            Portable Constructor as soon as possible to significantly improve
+            your chances of surviving the early game.
+        </div>
 </div>
+
