@@ -230,6 +230,41 @@ Claiming a POI with your own core does <strong>not</strong> protect it from a PO
 The Personal Wipe Counter only applies to the <strong>Starter Planets and their Orbits</strong>. It does <strong>not</strong> affect structures on other playfields.
 </div>
 
+<div class="rule">
+<h3>30-Day Inactivity Wipe</h3>
+
+<p>
+    The <strong>30-Day Inactivity Wipe</strong> removes your structures if you become inactive for too long.
+</p>
+
+<p>
+    If you do not log in within <strong>30 days</strong> and interact with your structures to refresh their timer, they will be deleted.
+</p>
+
+<div class="subsection">
+<h4>What is removed</h4>
+
+<ul>
+<li>Bases</li>
+<li>Ships</li>
+<li>Other player-owned structures</li>
+</ul>
+</div>
+
+<div class="subsection">
+<h4>What stays safe</h4>
+
+<ul>
+<li>Player data</li>
+<li>Inventory</li>
+<li>Character progression</li>
+</ul>
+</div>
+
+<div class="warning">
+<strong>Important:</strong> Simply staying away is not enough. Log in at least once every 30 days and interact with your structures to reset their inactivity timer.
+</div>
+
 </div>
 
 <div class="note">
