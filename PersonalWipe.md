@@ -230,6 +230,8 @@ Claiming a POI with your own core does <strong>not</strong> protect it from a PO
 The Personal Wipe Counter only applies to the <strong>Starter Planets and their Orbits</strong>. It does <strong>not</strong> affect structures on other playfields.
 </div>
 
+</div>
+
 <div class="rule">
 <h3>30-Day Inactivity Wipe</h3>
 
